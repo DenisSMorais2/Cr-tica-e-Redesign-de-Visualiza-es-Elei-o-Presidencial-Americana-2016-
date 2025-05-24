@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+/* Container geral */
+.redesign-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+}
+
+/* Título principal */
+.redesign-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #222831;
+}
+
+/* Texto secundário */
+.redesign-container p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #555555;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Container do gráfico */
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+/* Legenda */
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444444;
+}
+
+.legend-color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Cores das legendas para combinar com o gráfico */
+.legend-color-blue {
+  background-color: #4e79a7;
+}
+
+.legend-color-orange {
+  background-color: #f28e2c;
+}
+
+.legend-color-green {
+  background-color: #59a14f;
+}
+
+.legend-color-red {
+  background-color: #e15759;
+}
+
+/* Tooltip personalizado (se quiser) */
+.recharts-tooltip-wrapper {
+  font-size: 0.9rem !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+  color: #333 !important;
+}
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+  .redesign-container {
+    padding: 20px 15px;
+    margin: 20px 10px;
+  }
+
+  .legend {
+    flex-direction: column;
+    gap: 14px;
+  }
+}
