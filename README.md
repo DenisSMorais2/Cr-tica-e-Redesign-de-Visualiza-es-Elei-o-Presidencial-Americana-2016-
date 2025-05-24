@@ -17,15 +17,14 @@ Avaliar uma visualização real utilizada na mídia, identificando problemas de 
     .Representa apenas o vencedor por estado, ignorando margens
     .Falta de legenda com dados quantitativos
     .Não reflete o sistema do colégio eleitoral
+    
+![USA](https://github.com/user-attachments/assets/3eb5708c-6df3-4005-a03c-102612f29c70)
 
 ##❌ Falhas Comuns Identificadas
 .Tirania da Geografia: Área ≠ Importância eleitoral
 .Binário Enganoso: Falta de nuance nas margens de vitória
 .Vácuo Informacional: Ausência de contexto numérico e legendas
 .Desconexão Sistêmica: Ignora o funcionamento do sistema eleitoral
-
-![Grafico_EU](https://github.com/user-attachments/assets/175a3db9-afda-44cc-adce-b1b712e8deee)
-
 
 ##✅ Redesigns Propostos
 1. Mapa Cartográfico Proporcional
@@ -45,6 +44,8 @@ Avaliar uma visualização real utilizada na mídia, identificando problemas de 
 .Legendas e escalas numéricas devem ser incluídas
 .A visualização deve refletir o sistema político em questão
 .Se possível, oferecer múltiplas perspectivas
+
+![Grafico_EU](https://github.com/user-attachments/assets/175a3db9-afda-44cc-adce-b1b712e8deee)
 
 ##🚀 Como Rodar o Projeto
 1. Certifique-se de ter o Node.js instalado.
