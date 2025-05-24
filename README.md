@@ -24,6 +24,9 @@ Avaliar uma visualização real utilizada na mídia, identificando problemas de 
 .Vácuo Informacional: Ausência de contexto numérico e legendas
 .Desconexão Sistêmica: Ignora o funcionamento do sistema eleitoral
 
+![Grafico_EU](https://github.com/user-attachments/assets/175a3db9-afda-44cc-adce-b1b712e8deee)
+
+
 ##✅ Redesigns Propostos
 1. Mapa Cartográfico Proporcional
 .Tamanho dos estados ajustado pelos votos eleitorais
